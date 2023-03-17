@@ -1,0 +1,17 @@
+<header>
+    <div>
+        <h1>innovation</h1>    
+        <app-barra-de-pesquisa></app-barra-de-pesquisa>    
+        <nav>
+            <a routerLink="produtos">Produtos</a>
+            <a routerLink="login">
+                <i class="fa-solid fa-user"></i>
+                <span>Login</span>
+            </a>            
+            <a routerLink="carrinho">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>{{this.carrinhoService.getAll().length}}</span>  
+            </a>                     
+        </nav>
+    </div>         
+</header>

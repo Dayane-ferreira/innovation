@@ -1,0 +1,9 @@
+<main>
+    <section *ngFor="let produto of produtos">
+        <a routerLink="/produtos/{{produto.id}}">
+            <img [src]="produto.imagem">
+            <h2>{{ produto.nome }}</h2>
+            <p>{{ produto.preco | currency: "BRL"}}</p>  
+        </a>               
+    </section>
+</main>

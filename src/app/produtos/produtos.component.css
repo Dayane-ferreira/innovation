@@ -1,0 +1,36 @@
+section{
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+main>img{
+    width: 98%;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: lighter;
+}
+
+p{
+    color:var(--cor3);
+    font-weight: 500;
+}
+
+section:hover{
+    outline: 1px solid var(--cor);
+    transform: scale(1.1, 1.1);
+    
+}
+

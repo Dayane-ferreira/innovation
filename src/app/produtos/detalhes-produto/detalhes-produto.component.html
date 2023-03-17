@@ -1,0 +1,13 @@
+<section>
+    <img [src]="produto?.imagem" >
+    <div class="detalhes">
+        <h2>{{ produto?.nome}}</h2>
+        <p>{{ produto?.preco | currency: "BRL"}}</p>
+        <label>
+            <input type="number" [(ngModel)]="quantidade" min="1" max="99">
+        </label><br>            
+        <button (click)="adicionarProduto()">Adicionar ao carrinho</button>
+    </div>
+</section>
+
+

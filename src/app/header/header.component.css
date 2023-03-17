@@ -1,0 +1,35 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-image: linear-gradient(to right,#031242, #051C69,#082EA8);
+    padding: 50px;
+    color: var(--cor1);
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.342);    
+}
+
+h1{
+   font-size: 3.5em;
+   font-weight: 600;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+
+a{
+    color: var(--cor1);
+    text-decoration: none;
+    font-size: 1em;
+    padding-right: 30px;
+}
+
+nav > a:hover{
+    outline: 0.1px solid var(--cor1);
+    transform: scale(1.1, 1.1);
+}

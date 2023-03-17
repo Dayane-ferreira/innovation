@@ -1,0 +1,14 @@
+section{
+    text-align: center;
+    font-size: 1.5rem; 
+    padding: 90px;   
+}
+
+i{
+    font-size: 3em;
+    padding-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+}

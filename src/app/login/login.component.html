@@ -1,0 +1,22 @@
+<section>
+    <div>
+        <h2>Já é cadastrado</h2>
+        <p>E-mail/CPF</p>
+        <label>
+            <input type="email" [(ngModel)]="email" placeholder="admin@admin.com.br">
+        </label>        
+        <p>Senha</p>
+        <label>
+            <input type="password" [(ngModel)]="senha" placeholder="123456">
+        </label><br>        
+        <button type="button" (click)="entrar()">Entrar</button>
+    </div>
+    <div>
+        <h2>Não é cadastrado</h2>
+        <p>E-mail</p>
+        <label>
+            <input type="text">
+        </label><br>
+        <button>Cadastrar</button>  
+    </div>
+</section>

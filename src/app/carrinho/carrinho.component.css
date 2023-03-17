@@ -1,0 +1,77 @@
+section{    
+    margin: 40px;  
+    position: relative;  
+}
+
+div{    
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+div input{
+    height: 40px;
+    width: 40px;  
+    text-align: center;  
+    font-size: 1em; 
+}
+
+div button {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border: transparent;
+    background-color: transparent;
+    font-size: 1.5em;
+}
+
+section h3{
+    margin: 20px 0px;
+    font-size: 2em;
+}
+
+.confimar-compra{
+    background-color: var(--cor);
+    color: var(--cor1);
+    height: 60px;
+    width: 200px;
+    border-radius: 5px;  
+    padding: 10px;
+    margin: 20px 0px; 
+    font-size: 1.5em;
+}
+
+.carrinho-vazio{
+    text-align: center;
+    font-size: 1.5rem; 
+    padding: 90px;     
+}
+
+.carrinho-vazio i{
+    font-size: 3em;
+}
+
+.carrinho-vazio input{
+    font-size: 1.5em; 
+}
+
+.carrinho-vazio h2{
+    padding: 20px 0px;
+}
+
+.carrinho-vazio a{
+    background-color: var(--cor);
+    color: var(--cor1);
+    height: 60px;
+    width: 200px;
+    border-radius: 5px;  
+    padding: 10px;
+    text-decoration: none;
+}

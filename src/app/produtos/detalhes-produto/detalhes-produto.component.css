@@ -1,0 +1,47 @@
+section{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+div{
+    margin: 10px;
+    text-align: center;
+    font-size: 1.5em; 
+}
+
+div p{
+    color:var(--cor3);
+    font-weight:500;
+}
+
+div input{
+    height: 40px;
+    width: 40px; 
+    margin-bottom: 10px; 
+    font-size: 1em; 
+    text-align: center;
+}
+
+button{
+    background-color: var(--cor);
+    color: var(--cor1);
+    height: 60px;
+    width: 200px;
+    border-radius: 5px;  
+    padding: 10px;
+    font-size: 1rem;
+}
+
+img:hover{
+    outline: 1px solid var(--cor);
+    transform: scale(1.1, 1.1);
+    width: 450px;
+    height: 450px;
+
+}
